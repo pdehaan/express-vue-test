@@ -1,0 +1,21 @@
+{
+  "name": "express-vue-test",
+  "description": "Testing express-vue for Express+Vue template greatness",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "express": "4.16.4",
+    "express-vue": "5.8.2"
+  },
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
