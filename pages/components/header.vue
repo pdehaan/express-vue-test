@@ -6,9 +6,12 @@
 
 <script>
   export default {
-    name: "site-header",
+    name: "SiteHeader",
     props: {
-      title: String
+      title: {
+        type: String,
+        default: ""
+      }
     },
     data() {
       return {};

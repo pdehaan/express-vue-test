@@ -1,13 +1,13 @@
 <template>
   <footer>
-    <hr />
+    <hr>
     <p v-html="copyright" />
   </footer>
 </template>
 
 <script>
   export default {
-    name: "site-footer",
+    name: "SiteFooter",
     computed: {
       copyright() {
         return `&copy; Mozilla Inc. ${ new Date().getFullYear() }`;
